@@ -32,3 +32,22 @@
 - Toda a parte visual e o estilo do site é feito a partir do CSS.
 
 
+
+# Aula 02 - CSS
+
+**CSS (Cascading Style Sheet)**
+- Linguagem de estilização;
+- Folha de Estilos em Cascata;
+
+**Sintaxe do CSS**
+p {
+    color: red;  
+}
+- p é o seletor; {} são as chaves; color é a propriedade; red é o valor; ; é a declaração
+
+**Box Model**
+- Margin: margem externa;
+- Border: borda
+
+**Classe**
+- Quando vai fazer o CSS de uma classe coloca-se ponto e o nome da classe. EX: .caixa {}

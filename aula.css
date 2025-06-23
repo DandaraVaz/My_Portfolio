@@ -1,0 +1,18 @@
+p {
+    color: red;
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid aqua;
+    margin: 40px;
+    background-color: pink;
+}
+
+.caixa p {
+    display: flex;
+    justify-content: center;
+}
+
