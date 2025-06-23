@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    background-image: url("./assets/background.png");
+}
+
+header {
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./assets/backgroundNovo.jpg");
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+header h1 {
+    padding-top: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: flex;
+    padding-top: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: all .55s ease;
+}
+
+.nav-list a:hover {
+    border-bottom: 3px solid white;
+    transition: all .55s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    margin: 50px;
+}
+
+.sobreMim {
+
+}
+
