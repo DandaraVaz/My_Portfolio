@@ -79,7 +79,7 @@ main {
 /*Seção: Sobre Mim*/
 .about {
     display: flex;
-    padding: 5rem;
+    padding: 4rem;
     align-items: center;
     border-bottom: 0.1rem solid white;
     gap: 3rem;
@@ -89,6 +89,10 @@ main {
     border-radius: 100px;
     width: 470px;
     height: 470px;
+}
+
+.about:hover img {
+    transform: scale(1.1);
 }
 
 .descricao { 
@@ -142,11 +146,69 @@ main {
     text-align: center;
     border-radius: 0.5rem;
     border-bottom: 2px solid #4a00e0;
-    box-shadow: 0 2px 7px rgb(14 55 54 / 100%)
+    box-shadow: 0 2px 7px rgb(14 55 54 / 100%);
 }
 
 .items-box h3 {
     margin: 0.7rem 0 0.4rem;
+}
+
+.portfolio {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.projetos {
+    display: grid;
+    margin: 0px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-bottom: 2px solid white;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+}
+
+.memory {
+  text-decoration: none;
+}
+
+.memory img {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    gap: 3px;
+    border-radius: 8px;
+    object-fit: cover;
+    animation: entering 0.7s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.memory:hover img {
+    transform: scale(1.1);
+}
+
+.memory h3 {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.memory div {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.memory p {
+  color: black;
+  line-height: 28px;
+}
+
+.footer {
+    display: flex;
+    background-color: #633bbc;
 }
 
 @media (max-width: 999px) {
@@ -193,6 +255,11 @@ main {
 
     .skill h2{
         text-align: center;
+    }
+
+    .projetos {
+        padding: 1.5rem;
+        margin-top: 2rem;
     }
     
     /*.body {
