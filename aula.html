@@ -1,7 +1,7 @@
-<DOCTYPE html>  <!--DOCTYPE indica que esse é o HTML mais novo-->
+<!--<DOCTYPE html>  "Comentário" DOCTYPE indica que esse é o HTML mais novo
 <html lang="pt-BR">
     <head>
-        <meta charset="UTF-8">  <!--O UTF-8 Nos permite colocar caracteres como os acentos gráficos-->  
+        <meta charset="UTF-8">  "Comentário" O UTF-8 Nos permite colocar caracteres como os acentos gráficos  
         <title>Programação Front-end</title>
         <link rel="stylesheet" href="aula.css">
     </head>
@@ -13,5 +13,155 @@
         <div class="caixa">
             <p>Exemplo de Box Model</p>
         </div>
+    </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Lading Page</title>
+        <link rel="stylesheet" href="aula.css">
+    </head>
+
+    <body> 
+        <header>
+                <img src="./assets/FotoDandara.jpeg" alt="Foto de Dandara. Ela está com os cabelos soltos e uma blusa vermelha.">
+                <h1>Dandara Patrício Vaz de Oliveira</h1>
+                <p>"Programar é uma forma de arte que permite aos indivíduos expressarem sua criatividade através da criação de software." (Grace Hopper)</p>           
+            <nav>   
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>            
+                <ul class="nav-list">                    
+                    <a href="#sobreMim">Sobre mim</a>                                                
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
+                </ul>            
+            </nav>
+        </header>
+        <main> 
+            <div class="nav-links">
+                <section id="sobreMim">
+                    <div class="about">
+                        <img src="./assets/FotoDandara.jpeg" alt=""> 
+                        <div class="descricao">
+                            <h2>Quem é a Dandara?</h2>                       
+                            <p>Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> pela Universidade Cesumar e estou focada na área de desenvolvimento front-end.</p> 
+                            <p>Sou apaixonada por transformar ideias em interfaces funcionais e acessíveis, buscando sempre criar ideias digitais que façam sentido para as pessoas.</p>
+                            <p>Atualmente, estou em busca da minha <strong>primeira oportunidade proficional na área de tecnologia</strong>, de modo que eu possa colocar em prática o meu conhecimento e continuar evoluindo como desenvolvedora.</p>
+                            <p>Valorizo boas práticas de organização, bem como a construção de soluções que unam a estética e a usabilidade.</p>
+                            <p>Além de programar <strong>gosto muito de desenhar</strong>, o que me ajuda muito a desenvolver um olhar criativo e detalhista, principalmente na criação de interfaces.</p>
+                            <p>Estou animada para crescer na área de desenvolvimento web e contribuir com projetos e ideias que inspirem e facilitem a vida das pessoas.</p>
+                        </div>                   
+                    </div>
+                </section>
+
+                <section id="habilidades">
+                    <div class="skill">
+                        <h2>Minhas Habilidades</h2>
+                        <div class="items">
+                            <div class="items-box">
+                                <img src="https://img.icons8.com/color/200/html-5--v1.png" alt="html-5--v1">
+                                <h3>HTML</h3>
+                            </div> 
+                            <div class="items-box">
+                                <img src="https://img.icons8.com/color/200/css3.png" alt="css3"/>
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="items-box">
+                                <img src="https://img.icons8.com/color/200/javascript--v1.png" alt="javascript--v1"/>
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="items-box">
+                                <img src="https://img.icons8.com/color/200/react-native.png" alt="react-native"/>
+                                <h3>React</h3>
+                            </div>
+                            <div class="items-box">
+                                <img src="https://img.icons8.com/color/200/tailwindcss.png" alt="tailwindcss"/>
+                                <h3>Tailwind CSS</h3>
+                            </div> 
+                        </div>                                           
+                    </div>
+                                       
+                </section>
+                <section id="projetos">
+                    <div class="portfolio">
+                        <h2>Meu Portfólio</h2>
+                    </div>
+                    <div class="projetos">                       
+                        <div class="memory">
+                            <a href="https://github.com/DandaraVaz/nlw-spacetime" target="_blank">
+                            <h3>Cápsula do Tempo</h3>
+                            <div>
+                                <img src="./assets/nlw-spacetime.png" alt="Aplicação Web Responsiva de Cápsula do tempo.">
+                            </div>                           
+                            </a>
+                        </div>
+
+                         <div class="memory">
+                            <a href="https://github.com/DandaraVaz/Habits" target="_blank">
+                            <h3>Habits</h3>
+                            <div>
+                                <img src="./assets/Habits.png" alt="O Habits é um app para ajudar a rastrear os hábitos.">
+                            </div>                           
+                            </a>
+                        </div>
+
+                        <div class="memory">
+                            <a href="https://github.com/DandaraVaz/DevLinks" target="_blank">
+                            <h3>DevLinks</h3>
+                            <div>
+                                <img src="./assets/DevLinks.png" alt="O DevLinks é um agregador de links para usar como cartão de visitas online.">
+                            </div>                           
+                            </a>
+                        </div>
+
+                        <div class="memory">
+                            <a href="https://github.com/DandaraVaz/secretword" target="_blank">
+                            <h3>Secret Word</h3>
+                            <div>
+                                <img src="./assets/SecretWord.png" alt="O Secret Word é um jogo para adivinhar palavras a partir das dicas.">
+                            </div>                           
+                            </a>
+                        </div>
+
+                        <div class="memory">
+                            <a href="https://github.com/DandaraVaz/galeria-grid-area" target="_blank">
+                            <h3>Galeria de Imagens</h3>
+                            <div>
+                                <img src="./assets/Galeria de imagens.png" alt="Galeria com imagens dos artesanatos da cidade de Tracunhaém">
+                            </div>                           
+                            </a>
+                        </div>
+
+                        <div class="memory">
+                            <a href="https://github.com/DandaraVaz/portifolio-website" target="_blank">
+                            <h3>Portfólio</h3>
+                            <div>
+                                <img src="./assets/portfolio.png" alt="Portfólio">
+                            </div>                           
+                            </a>
+                        </div>
+                    </div>
+                </section>  
+            </div>
+           
+            <aside>
+                <p>
+                    <a href="https://github.com/DandaraVaz" target="_blank">Github</a><br>
+                    <a href="https://www.linkedin.com/in/dandara-vaz-01b9a9211/" target="_blank">Linkedin</a>
+                </p>
+            </aside>
+        </main>     
+            <footer style="background-color: #633bbc; display: flex; padding: 1rem; gap: 5rem; justify-content: center;">
+                <p><strong>dandarapatriciovaz@gmail.com</strong> </p>                      
+                <p><strong>&copy 2025 Dandara Vaz</strong></p>
+            </footer>
+          
+        
+        <script src="script.js"></script>
     </body>
 </html>
