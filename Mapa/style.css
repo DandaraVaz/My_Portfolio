@@ -250,6 +250,19 @@ footer {
         margin-left: 32px;
     }
 
+    .close-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
     .mobile-menu div {
         width: 32px;
         height: 2px;

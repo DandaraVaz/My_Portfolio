@@ -8,6 +8,8 @@ class MobileNavbar {
         this.projetos = document.querySelectorAll(projetos);
         this.activeClass = "active";
 
+        
+
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -41,3 +43,12 @@ const mobileNavbar = new MobileNavbar(
     ".nav-list li",
 );
 mobileNavbar.init();
+
+const closeBtn = document.querySelector('.close-btn');
+const navList = document.querySelector('.nav-list');
+
+if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+        navList.classList.remove('active');
+    });
+}
