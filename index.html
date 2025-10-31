@@ -15,30 +15,34 @@
         <h1>Dandara Patrício Vaz de Oliveira</h1>
         <p>"Programar é uma forma de arte que permite aos indivíduos expressarem sua criatividade através da criação de
             software." (Grace Hopper)</p>
-        <nav>
-            <div class="mobile-menu">
-                <li>
-                    <div></div>
+        <nav class="nav" aria-label="Main navigation">
+            <!-- Accessible hamburger button -->
+            <button class="mobile-menu" aria-controls="primary-navigation" aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+
+            <ul id="primary-navigation" class="nav-list" data-visible="false">
+                <li class="nav-top">
+                    
                 </li>
-                <li>
-                    <div></div>
-                </li>
-                <li>
-                    <div></div>
-                </li>
-            </div>
-            <ul class="nav-list">
-                <a href="#sobreMim">Sobre mim</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#projetos">Projetos</a>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
             </ul>
+            <!-- backdrop to dim page when menu is open -->
+            <div class="nav-backdrop" hidden></div>
         </nav>
     </header>
     <main>
-                <div class="nav-links">
+        <div class="nav-links">
             <section id="sobreMim">
                 <div class="about">
-                    <img src="./assets/FotoDandara.jpeg" alt="">
+                    <div class="imgSobre">
+                        <img src="./assets/FotoDandara.jpeg" alt="">
+                    </div>
                     <div class="descricao">
                         <h2>Quem é a Dandara?</h2>
                         <p>Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> pela Universidade
@@ -161,7 +165,7 @@
                 <img width="30" height="30" src="https://img.icons8.com/color/480/linkedin.png" alt="linkedin" />
             </a>
         </aside>
- 
+
     </main>
     <footer style="background-color: #633bbc; display: flex; padding: 1rem; gap: 5rem; justify-content: center;">
         <p><strong>dandarapatriciovaz@gmail.com</strong> </p>
